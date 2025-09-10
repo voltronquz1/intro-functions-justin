@@ -17,11 +17,13 @@ t = Turtle()
 # for i in range(1,4):
 #     print(i)
 
-def rectangle():
+for i in range(0,2):
+    t.width(5)
     t.forward(125)
     t.left(90)
     t.forward(100)
     t.left(90)
-    t.width(125)
-    
+
+
+
 turtle.done()
