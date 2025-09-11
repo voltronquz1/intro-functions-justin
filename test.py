@@ -17,12 +17,9 @@ t = Turtle()
 # for i in range(1,4):
 #     print(i)
 
-for i in range(0,2):
-    t.width(5)
-    t.forward(125)
-    t.left(90)
-    t.forward(100)
-    t.left(90)
+# for i in range(0,3):
+#     t.forward(90)
+#     t.right(120)
 
 
 
