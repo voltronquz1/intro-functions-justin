@@ -1,7 +1,7 @@
 import turtle
 from turtle import *
 t = Turtle()
-t.speed()
+t.speed(100)
 
 # turtle.done()
 #define the functin name then pass arguements/parameter
@@ -54,11 +54,45 @@ t.speed()
         t.left(90)
         square(200) """
 
-sidelength = 100
-rotate = 90
+# sidelength = 100
+# rotate = 90
+# def square(x,y):
+#     for i in range(60):
+#         t.forward(x)
+#         t.left(y)
+# square(100,90)
+# def doubleSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length = length + 5
+# doubleSquares(5)
+
+# for i in range(60):
+#     def square(x):
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.right(5)
+#     square(200)
+# y=input("whats your name")
+# # turtle.done()
+# print(y)
+# def add(x,y):
+#     return(x+y)
+# bill=add(5,10)
+# print(bill)
+sidelength=5
 def square(x,y):
-    for i in range(4):
-        t.forward(x)
-        t.left(y)
-square(100,90)
+    for i in range(60):
+        t.forward(100)
+        t.left(90)
+        t.right(5)
+        
+square(200,100)
 turtle.done()
