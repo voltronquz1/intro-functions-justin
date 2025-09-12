@@ -97,18 +97,26 @@ t.speed(100)
 #         length=5
 #         length= length + 5
 # square(200,100)
-for i in range(60):
-    def square(x):
-        t.forward(x)
-        t.right(90)
-        t.forward(x)
-        t.right(90)
-        t.forward(x)
-        t.right(90)
-        t.forward(x)
-        t.right(90)
+# for i in range(60):
+#     def square(x):
+#         t.forward(x)
+#         t.right(90)
+#         t.forward(x)
+#         t.right(90)
+#         t.forward(x)
+#         t.right(90)
+#         t.forward(x)
+#         t.right(90)
+#         t.left(5)
+#         length=5
+#         length= length + 5
+#     square(200)
+
+def manySquares(x):
+    y=10
+    for i in range(x):
+        square(y)
+        y=y+5
         t.left(5)
-        length=5
-        length= length + 5
-    square(200)
+manySquare(3)
 turtle.done()
