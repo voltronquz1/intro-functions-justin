@@ -87,12 +87,28 @@ t.speed(100)
 #     return(x+y)
 # bill=add(5,10)
 # print(bill)
-sidelength=5
-def square(x,y):
-    for i in range(60):
-        t.forward(100)
-        t.left(90)
-        t.right(5)
-        
-square(200,100)
+# sidelength=5
+# def square(x,y):
+#     for i in range(60):
+#         t.forward(100)
+#         t.left(90)
+#         t.right(5)
+#     for i in range(60):
+#         length=5
+#         length= length + 5
+# square(200,100)
+for i in range(60):
+    def square(x):
+        t.forward(x)
+        t.right(90)
+        t.forward(x)
+        t.right(90)
+        t.forward(x)
+        t.right(90)
+        t.forward(x)
+        t.right(90)
+        t.left(5)
+        length=5
+        length= length + 5
+    square(200)
 turtle.done()
