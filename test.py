@@ -126,9 +126,11 @@ t.speed(100)
 #         square(length, 90)
 #         length += 25
 # addSquares(5)
-for i in range in (5):
+for i in range(5):
     def square(x,y):
-
+        t.forward(x)
+        t.left(y)
+    square(90,90)
 
 # floats 
 # bill= 31.56
