@@ -112,11 +112,52 @@ t.speed(100)
 #         length= length + 5
 #     square(200)
 
-def manySquares(x):
-    y=10
-    for i in range(x):
-        square(y)
-        y=y+5
-        t.left(5)
-manySquare(3)
+# for i in range(5):
+#     def square(x,y):
+#         t.forward(x)
+#         t.left(y)
+#         def Addsquare(x):
+#             t.forward(x)
+#             t.left(5)
+#     square(100,90)
+# def addSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length += 25
+# addSquares(5)
+for i in range in (5):
+    def square(x,y):
+
+
+# floats 
+# bill= 31.56
+# boolean or true/false
+
+# x=10 
+# == is evaluation
+# if x== 10:
+#     print("x is 10")
+# elif x>10:
+#     print("x is great than 10")
+# else:
+#     print("x is not 10")
+
+# students=["Sean","olivia","Ayaan","Youssef"]
+# print(students[0])
+# for student in students:
+#     print(student)
+# students=["Sean","olivia","Ayaan","Youssef","Andy"]
+# students.append=["Mia"]
+# if "Olivia" in students:
+#     print("she kinda lame")
+# else:
+#     print("She still lame but not in this class")
+# for student in students:
+#     if student== "Mia":
+#         print("Mia is lame")
+#     else:
+#         print("Mia is not here")
+# name= "A N D Y"
+# print(len(name))
 turtle.done()
