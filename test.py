@@ -130,8 +130,17 @@ for i in range(5):
     def square(x,y):
         t.forward(x)
         t.left(y)
-    square(90,90)
-    
+        t.left(5)
+        square(45,90)
+def addSquares(iRange):
+    length = 25
+    for i in range(iRange):
+            square(length, 90)
+            length += 5
+addSquares(5)
+
+
+
 
 # floats 
 # bill= 31.56
@@ -163,4 +172,11 @@ for i in range(5):
 #         print("Mia is not here")
 # name= "A N D Y"
 # print(len(name))
+
+
+
+
+
+#
+16 % 2
 turtle.done()
