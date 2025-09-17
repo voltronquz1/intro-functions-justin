@@ -52,3 +52,10 @@ def movies():
     else:
         print("Hw")
 movies()
+
+
+
+def factors(x,y):
+    if x % y ==0:
+        print("factor")
+factor(25,5)
