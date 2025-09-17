@@ -133,14 +133,14 @@ def star(x,y):
     for i in range(5):
         t.forward(x)
         t.left(y)
-        t.left(5)
         star(45,144)
-def addSquares(iRange):
+def addstars(iRange):
     length = 25
     for i in range(iRange):
-            star(length, 144)
-            length += 5
-addSquares(5)
+        star(length, 144)
+        length += 5
+        t.right(5)
+addstars(65)
 
 
 
