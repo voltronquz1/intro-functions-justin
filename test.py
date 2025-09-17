@@ -129,18 +129,30 @@ t.speed(100)
 
 
 
-def star(x,y):
-    for i in range(5):
+# def star(x,y):
+#     for i in range(5):
+#         t.forward(x)
+#         t.left(y)
+# def addstars(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         star(length, 144)
+#         length += 5
+#         t.right(5)
+# addstars(65)
+
+
+def square(x,y):
+    for i in range(4):
         t.forward(x)
         t.left(y)
-        star(45,144)
-def addstars(iRange):
+def addsquares(iRange):
     length = 25
     for i in range(iRange):
-        star(length, 144)
+        square(length, 90)
         length += 5
         t.right(5)
-addstars(65)
+addsquares(75)
 
 
 
