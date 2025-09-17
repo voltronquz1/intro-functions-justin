@@ -126,16 +126,19 @@ t.speed(100)
 #         square(length, 90)
 #         length += 25
 # addSquares(5)
-for i in range(5):
-    def square(x,y):
+
+
+
+def star(x,y):
+    for i in range(5):
         t.forward(x)
         t.left(y)
         t.left(5)
-        square(45,90)
+        star(45,144)
 def addSquares(iRange):
     length = 25
     for i in range(iRange):
-            square(length, 90)
+            star(length, 144)
             length += 5
 addSquares(5)
 
@@ -178,5 +181,5 @@ addSquares(5)
 
 
 #
-16 % 2
+# 16 % 2
 turtle.done()
