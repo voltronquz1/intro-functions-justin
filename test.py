@@ -129,30 +129,30 @@ t.speed(100)
 
 
 # assesment star
-# def star(x,y):
-#     for i in range(5):
-#         t.forward(x)
-#         t.left(y)
-# def addstars(iRange):
-#     length = 25
-#     for i in range(iRange):
-#         star(length, 144)
-#         length += 5
-#         t.right(5)
-# addstars(65)
+def star(x,y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
+def addstars(iRange):
+    length = 25
+    for i in range(iRange):
+        star(length, 144)
+        length += 5
+        t.right(5)
+addstars(65)
 
 # square assesment 
-# def square(x,y):
-#     for i in range(4):
-#         t.forward(x)
-#         t.left(y)
-# def addsquares(iRange):
-#     length = 25
-#     for i in range(iRange):
-#         square(length, 90)
-#         length += 5
-#         t.right(5)
-# addsquares(75)
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+def addsquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+addsquares(75)
 
 
 
